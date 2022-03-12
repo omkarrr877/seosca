@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700 &family=Rubik&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --primary-color: #F76548;
+    --dark-color: #232746;
+    --light-color: #f5f4f9;
+    --main-font: 'Poppins', sans-serif;
+    --second-font: 'Rubik', sans-serif;
+}
+.main-btn
+{
+    width: 147px;
+    height: 42px;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    background: #FD8051;
+    border-radius: 40px 0 23px 40px;
+}
+.white-btn
+{
+    width: 147px;
+    height: 42px;
+
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FD8051;
+
+    border: 1px solid #FD8051;
+    box-sizing: border-box;
+    border-radius: 40px 0 23px 40px;
+}
+
+.navbar
+{
+    padding: 24px 50px 24px 31px;
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(30, 32, 49, 0.04);
+}
+.nav-item
+{
+    padding-left: 25px;
+}
+.nav-link
+{
+    font-family: var(--main-font) !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    /* identical to box height */
+
+
+    color: #433F6A !important;
+}
+.nav-link:hover
+{
+transition: 0.5s;
+    color: #FD8051 !important;
+}
+
+.navbar-nav .nav-item .nav-link .bi
+{
+    font-size: 40px;
+}
+.hero{
+    padding-bottom: 100px;
+}
+.hero h1
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 65px;
+    /* or 108% */
+
+
+    color: #3B3663;
+
+}
+.hero p
+{
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+
+    color: #696687;
+}
+
+.services
+{  padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F9FAFB;
+}
+.services h3
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #FD8051;
+
+}
+.services h2
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    /* identical to box height, or 128% */
+
+    text-align: center;
+
+    color: #3B3663;
+
+}
+.services p
+{
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+    text-align: center;
+
+    color: #696687;
+    margin-bottom: 40px;
+}
+.services .card
+{
+    position: relative;
+
+    height: 258px;
+    justify-content: center;
+    padding: 30px;
+    text-align: left !important;
+    background: #FFFFFF;
+    box-shadow: 0 15px 30px rgba(67, 63, 106, 0.05);
+    border-radius: 10px;
+}
+.services .card h3
+{
+    text-align: left !important;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3B3663;
+    margin-top: 26px;
+}
+.services .card p
+{
+    text-align: left !important;
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+
+    color: #696687;
+
+}
+
+.aboutus{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.aboutus h3
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+
+    color: #FD8051;
+}
+.aboutus h2
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    /* or 128% */
+
+
+    color: #3B3663;
+
+}
+.aboutus p
+{
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+
+    color: #696687;
+}
+
+/* PROJECT */
+
+.project
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F9FAFB;
+}
+
+.project .row
+{
+    align-items: center;
+    justify-content: center;
+}
+.project .row img
+{
+    box-shadow: 0 15px 30px rgba(67, 63, 106, 0.05);
+}
+.project h3
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FD8051;
+}
+.project h2
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    color: #3B3663;
+}
+.project p
+{
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #696687;
+}
+
+
+/* OFFER */
+.offer{
+    padding-top: 100px;
+ 
+}
+.offer .row
+{
+    align-items: center;
+    justify-content: center;
+}
+.offer h3
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FD8051;
+}
+.offer h2
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    color: #3B3663;
+}
+.offer p
+{
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #696687;
+}
+.offer .row .card
+{
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0 10px 30px rgba(67, 63, 106, 0.12);
+    border-radius: 10px;
+    border: none;
+    padding: 30px;
+}
+.offer .row .card h3
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    margin-top: 26px;
+    color: #3B3663;
+}
+.offer .row .card p
+{
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+    text-align: center;
+
+    color: #696687;
+}
+/* NEED-PROJECT */
+.need-project
+{
+    background: #F9FAFB;
+    height: 380px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.need-project .container
+{
+    position: relative;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    top: 25%;
+}
+.need-project h2
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    color: #FD8051;
+}
+.need-project p
+{
+    margin-top: 17px;
+    margin-bottom: 24px;
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #696687;
+}
+
+/* MARKETING */
+.marketing{
+
+    padding-bottom: 100px;
+}
+.marketing .row
+{
+    align-items: center;
+    justify-content: center;
+}
+.marketing h2
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    color: #3B3663;
+}
+.marketing p
+{
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #696687;
+}
+.marketing .sticker
+{
+    border: none;
+    margin: 20px;
+    background: #FFFFFF;
+    box-shadow: 0 10px 30px rgba(67, 63, 106, 0.08);
+    border-radius: 10px;
+    width: 235px;
+    height: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.marketing .sticker img
+{
+    width: 33px;
+    height: 33px;
+    margin-left: -33px;
+}
+.marketing .sticker p
+{
+    margin-left: 23px;
+    margin-top: 15px;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+
+    color: #3B3663;
+}
+.marketing-desc
+{
+    padding-top: 100px;
+}
+/* NEWS */
+.news
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F9FAFB;
+}
+.news h3
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FD8051;
+}
+.news h2
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    color: #3B3663;
+}
+.news p
+{
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #696687;
+}
+.news .main-card img{
+    min-height: 268px!important;
+}
+.news .main-card .card-body {
+padding: 45px;
+}
+.news .main-card .card-body h3{
+    font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+text-align: left;
+
+color: #3B3663;
+}
+.news .main-card .card-body h6{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    
+    text-align: left;
+    
+    color: #FD8051;
+    
+}
+.news .main-card .card-body p{
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    text-align: left;
+    
+    color: #696687;
+    
+}
+.news .horizontal-cards .card-row
+{background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(67, 63, 106, 0.08);
+    border-radius: 10px;
+    position: relative;
+    height: 221px;
+}
+.news .horizontal-cards .img-div
+{
+    position: relative;
+}
+.news .horizontal-cards img
+{
+border-radius: 0 0 0 10px;
+    height: 221px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.news .horizontal-cards h3
+{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3B3663;text-align: left;
+}
+.news .horizontal-cards h6
+{  margin-top: 7px;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FD8051;
+    text-align: left;
+}
+.news .horizontal-cards p
+{
+    margin-top: 14px;
+    font-family: var(--second-font);
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+color: #696687;text-align: left;
+}
+footer{
+    background: #FFFFFF;
+}

@@ -1,0 +1,46 @@
+@media only screen and (max-width: 991px){
+    .header{
+        padding: 0;
+        margin: 0;
+    }
+    .hero h1{
+        font-size: 35px;
+line-height: 35px;
+    }
+   .wrapper .navbar-collapse.collapse.show{
+        background: #FD8051 !important;
+        color: #fff !important;
+        padding: 10px;
+    }
+   .wrapper .navbar-collapse.collapse.show .navbar-nav .nav-item:hover{
+        background: #fff !important; 
+    }
+   .wrapper .navbar-collapse.collapse.show .navbar-nav .nav-link{
+        color: #fff !important;
+      
+    }
+   .wrapper .navbar-collapse.collapse.show .navbar-nav .nav-link:hover{
+        background: #fff !important;
+        color: #FD8051 !important;
+        transition: 1s;
+    }
+    .wrapper .navbar-collapse.collapse.show .white-btn{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: 1s;
+    }
+}
+@media only screen and (max-width: 767px){
+    .news .horizontal-cards{
+        position: static!important;
+       background: #ffffff;
+    }
+    .news{
+        padding-bottom: 300px;
+    }
+    .news .horizontal-cards img{
+        position: static!important;
+        min-height: 268px!important;
+    }
+  
+}
